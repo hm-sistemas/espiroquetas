@@ -15,15 +15,15 @@
             tabNavClasses,
           ]"
         >
-          <li v-for="tab in tabs" class="nav-item" :key="tab.id || tab.title">
+          <li v-for="tab in tabs" :key="tab.id || tab.title" class="nav-item">
             <a
               data-toggle="tab"
               role="tab"
               class="nav-link"
               :href="`#${tab.id || tab.title}`"
-              @click.prevent="activateTab(tab)"
               :aria-selected="tab.active"
               :class="{ active: tab.active }"
+              @click.prevent="activateTab(tab)"
             >
               <tab-item-content :tab="tab"> </tab-item-content>
             </a>
@@ -41,7 +41,7 @@
 import PillsLayout from './PillsLayout'
 import TabsLayout from './TabsLayout'
 export default {
-  name: 'tabs',
+  name: 'Tabs',
   components: {
     TabsLayout,
     PillsLayout,
@@ -57,7 +57,7 @@ export default {
       type: String,
       default: '',
       validator: (value) => {
-        let acceptedValues = [
+        const acceptedValues = [
           '',
           'primary',
           'info',
@@ -65,7 +65,7 @@ export default {
           'warning',
           'danger',
         ]
-        return acceptedValues.indexOf(value) !== -1
+        return acceptedValues.includes(value)
       },
       description: 'Tabs type (primary|info|danger|default|warning|success)',
     },
@@ -115,6 +115,7 @@ export default {
     value: {
       type: String,
       description: 'Initial value (active tab)',
+      default: '',
     },
   },
   provide() {
@@ -140,9 +141,23 @@ export default {
       }
     },
   },
+  watch: {
+    value(newVal) {
+      this.findAndActivateTab(newVal)
+    },
+  },
+  mounted() {
+    this.$nextTick(() => {
+      if (this.value) {
+        this.findAndActivateTab(this.value)
+      } else if (this.tabs.length > 0) {
+        this.activateTab(this.tabs[0])
+      }
+    })
+  },
   methods: {
     findAndActivateTab(title) {
-      let tabToActivate = this.tabs.find((t) => t.title === title)
+      const tabToActivate = this.tabs.find((t) => t.title === title)
       if (tabToActivate) {
         this.activateTab(tabToActivate)
       }
@@ -172,22 +187,6 @@ export default {
       if (index > -1) {
         tabs.splice(index, 1)
       }
-    },
-  },
-  mounted() {
-    this.$nextTick(() => {
-      if (this.value) {
-        this.findAndActivateTab(this.value)
-      } else {
-        if (this.tabs.length > 0) {
-          this.activateTab(this.tabs[0])
-        }
-      }
-    })
-  },
-  watch: {
-    value(newVal) {
-      this.findAndActivateTab(newVal)
     },
   },
 }
