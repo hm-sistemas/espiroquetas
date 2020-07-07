@@ -8,7 +8,9 @@
     :aria-expanded="toggled"
     aria-label="Toggle navigation"
   >
-    <span class="navbar-toggler-icon"></span>
+    <span class="" role="button"
+      ><i class="fa fa-bars" aria-hidden="true" style="color: black;"></i
+    ></span>
   </button>
 </template>
 <script>
@@ -16,7 +18,8 @@ export default {
   props: {
     target: {
       type: [String, Number],
-      default: 'Button target element',
+      description: 'Button target element',
+      default: '#',
     },
     toggled: {
       type: Boolean,

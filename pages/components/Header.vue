@@ -1,14 +1,19 @@
 <template>
   <div>
-    <base-nav type="" transparent effect="" expand>
+    <base-nav type="" effect="light" expand>
       <nuxt-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-        <img src="img/brand/Hm-logo-02.png" alt="logo" />
+        <b-img
+          src="img/brand/logo.png"
+          style="height: 100%;"
+          fluid
+          alt="logo"
+        ></b-img>
       </nuxt-link>
 
       <div slot="content-header" slot-scope="{ closeMenu }" class="row">
         <div class="col-6 collapse-brand">
           <a href="#">
-            <img src="img/brand/Hm-logo-02.png" alt="logo" />
+            <img src="img/brand/logo.png" alt="logo" />
           </a>
         </div>
         <div class="col-6 collapse-close">
@@ -17,7 +22,7 @@
       </div>
 
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-        <base-dropdown class="nav-item">
+        <!-- <base-dropdown class="nav-item">
           <a
             slot="title"
             href="#services"
@@ -26,7 +31,7 @@
             role="button"
           >
             <i class="fa fa-hospital-o d-lg-none"></i>
-            <span class="nav-link-inner--text">SERVICES</span>
+            <span class="nav-link-inner--text">Tratamientos</span>
           </a>
           <a class="dropdown-item" title="Dental" href="#services">Dental</a>
           <a class="dropdown-item" title="Surgeries" href="#services"
@@ -44,54 +49,46 @@
           <a class="dropdown-item" title="Treatments" href="#services"
             >Treatments</a
           >
-        </base-dropdown>
+        </base-dropdown> -->
         <li class="nav-item">
           <a
             class="nav-link nav-link-icon"
-            title="DentiMexico"
-            href="http://dentimexico.com/"
+            title="Tratamientos"
+            href="#services"
           >
-            DENTALCENTER
+            Tratamientos
           </a>
         </li>
         <li class="nav-item">
           <a
             class="nav-link nav-link-icon"
-            title="Insurances"
-            href="#insurances"
+            title="Testimoniales"
+            target="_blank"
+            href="https://www.youtube.com/user/hospitalmexico/videos"
           >
-            INSURANCES
+            Testimoniales
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" title="Pricing" href="#pricing">
-            PRICING
-          </a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link nav-link-icon"
-            href="https://www.youtube.com/watch?v=rUZd4YgJ9nI"
-            title="Directions"
-          >
-            DIRECTIONS
+          <a class="nav-link nav-link-icon" title="about" href="#about">
+            Quienes somos
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link nav-link-icon" href="#contact" title="Contact">
-            CONTACT
+            Contacto
           </a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <nuxt-link
             class="nav-link nav-link-icon"
             to="registro"
             title="Register"
             >REGISTER</nuxt-link
           >
-        </li>
+        </li> -->
       </ul>
-      <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+      <!-- <ul class="navbar-nav align-items-lg-center ml-lg-auto">
         <li class="nav-item">
           <a
             class="nav-link nav-link-icon"
@@ -120,18 +117,12 @@
             <span class="nav-link-inner--text d-lg-none">1 800 315 87 14</span>
           </a>
         </li>
-        <li class="nav-item">
-          <nuxt-link slot="brand" class="navbar-brand mr-lg-5" to="es">
-            <span class="nav-link">Español</span>
-          </nuxt-link>
-        </li>
-      </ul>
+      </ul> -->
     </base-nav>
   </div>
 </template>
 <script>
 import BaseNav from '~/components/BaseNav'
-import BaseDropdown from '~/components/BaseDropdown'
 import CloseButton from '~/components/CloseButton'
 
 export default {
@@ -139,7 +130,6 @@ export default {
   components: {
     BaseNav,
     CloseButton,
-    BaseDropdown,
   },
 }
 </script>

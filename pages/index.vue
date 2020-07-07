@@ -1,65 +1,59 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        espiroquetas
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div id="app">
+    <MainSlider></MainSlider>
+    <!-- <Description></Description>
+    <Services></Services> -->
+    <Contact></Contact>
   </div>
 </template>
 
 <script>
-export default {}
+import MainSlider from './components/MainSlider'
+/* import Description from './components/Description'
+import Services from './components/Services' */
+import Contact from './components/Contact'
+export default {
+  layout: 'App',
+  name: 'Index',
+  components: {
+    MainSlider,
+    /* Description,
+    Services,
+    Surgeries,
+    Insurances, */
+    Contact,
+  },
+  data() {
+    return {
+      title: 'Tratamiento para lupus, artritis, migraña, fibromialgia',
+      description:
+        'Tratamiento para artritis, migraña, parálisis facial, fibromialgia, síndrome del tunel de carpo.',
+      structuredData: {
+        '@context': 'http://schema.org',
+        '@type': 'CreativeWork',
+        name: 'Espiroquetas',
+        image: 'https://hospitalmexico.org/img/brand/Hm-logo-02.png',
+        email: 'info@hospitalmexico.org',
+        url: 'http://http://espiroquetas.com/',
+      },
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      htmlAttrs: {
+        lang: 'es',
+      },
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description,
+        },
+      ],
+      script: [{ type: 'application/ld+json', json: this.structuredData }],
+    }
+  },
+}
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
