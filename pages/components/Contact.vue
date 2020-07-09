@@ -16,7 +16,7 @@
         <card gradient="secondary" no-body shadow-size="lg" class="border-0">
           <div class="p-5">
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-5">
                 <div class="pr-md-5">
                   <icon
                     name="fa fa-question-circle"
@@ -26,17 +26,17 @@
                     shadow
                     rounded
                   ></icon>
-                  <h2 class="">
+                  <p class="h3 text-center">
                     Contáctenos!!
-                  </h2>
-                  <h4>
+                  </p>
+                  <p class="h5 text-justify">
                     La ubicación en Tijuana es estratégica ya que esta a solo
                     unos cuantos pasos de la frontera internacional, puede
                     estacionar su automovil de lado de Estados Unidos y cruzar
                     caminando a Tijuana, llegaría en solo unos minutos.
-                  </h4>
-                  <h3>LLAME AHORA</h3>
-                  <ul class="list-unstyled mt-5">
+                  </p>
+                  <h3 class="text-success text-center">LLAME AHORA</h3>
+                  <ul class="list-unstyled mt-2">
                     <li class="py-2">
                       <div class="d-flex align-items-center">
                         <a
@@ -47,12 +47,6 @@
                           data-toggle="tooltip"
                           title="LLAMENOS"
                         >
-                          <badge
-                            type="info"
-                            circle
-                            class="mr-3"
-                            icon="fa fa-phone"
-                          ></badge>
                           <h6 class="mb-0">
                             A California desde fuera de USA 1(619) 581-4081
                           </h6>
@@ -68,12 +62,6 @@
                         data-toggle="tooltip"
                         title="Call Us"
                       >
-                        <badge
-                          type="info"
-                          circle
-                          class="mr-3"
-                          icon="fa fa-phone"
-                        ></badge>
                         <h6 class="mb-0">A California en USA (619) 581-4081</h6>
                       </a>
                     </li>
@@ -85,12 +73,6 @@
                         data-toggle="tooltip"
                         title="Address"
                       >
-                        <badge
-                          type="info"
-                          circle
-                          class="mr-3"
-                          icon="fa fa-map-marker"
-                        ></badge>
                         <h6 class="mb-0">
                           Hospital México 9077 De la Amistad Av., Colonia
                           Federal, 22010 Tijuana, B.C.
@@ -100,13 +82,13 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-8">
+              <div class="col-lg-7 mt-5">
                 <a
                   href="https://www.google.com/maps/place/Hospital+M%C3%A9xico/@32.538482,-117.028058,15z/data=!4m5!3m4!1s0x0:0x6bd2e723d983788e!8m2!3d32.538482!4d-117.028058?hl=en-US"
                 >
                   <img
                     v-lazy="'img/tourism/hm-map-min.png'"
-                    class="img-fluid floating"
+                    class="img-fluid"
                     alt="Hospital Mexico location"
                   />
                 </a>

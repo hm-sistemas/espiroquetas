@@ -1,25 +1,31 @@
 <template>
   <div id="app">
     <MainSlider></MainSlider>
-    <!-- <Description></Description>
-    <Services></Services> -->
+    <Description></Description>
+    <Treatments></Treatments>
+    <Deseases></Deseases>
+    <Testimonials></Testimonials>
     <Contact></Contact>
   </div>
 </template>
 
 <script>
 import MainSlider from './components/MainSlider'
-/* import Description from './components/Description'
-import Services from './components/Services' */
+import Description from './components/Description'
+import Treatments from './components/Treatments'
+import Deseases from './components/Deseases'
+import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 export default {
   layout: 'App',
   name: 'Index',
   components: {
     MainSlider,
-    /* Description,
-    Services,
-    Surgeries,
+    Description,
+    Treatments,
+    Deseases,
+    Testimonials,
+    /* Surgeries,
     Insurances, */
     Contact,
   },

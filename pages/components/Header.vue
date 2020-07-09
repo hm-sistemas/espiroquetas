@@ -2,12 +2,7 @@
   <div>
     <base-nav type="" effect="light" expand>
       <nuxt-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-        <b-img
-          src="img/brand/logo.png"
-          style="height: 100%;"
-          fluid
-          alt="logo"
-        ></b-img>
+        <img src="img/brand/logo.png" style="height: 100%;" fluid alt="logo" />
       </nuxt-link>
 
       <div slot="content-header" slot-scope="{ closeMenu }" class="row">

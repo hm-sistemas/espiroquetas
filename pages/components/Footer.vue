@@ -3,9 +3,9 @@
     <div class="container">
       <div class="row row-grid align-items-center my-md">
         <div class="col-lg-6">
-          <h3 class="text-primary font-weight-light mb-2">
+          <!-- <h3 class="text-primary font-weight-light mb-2">
             Thank you for over 25 years of service.
-          </h3>
+          </h3> -->
         </div>
       </div>
       <hr />
@@ -13,12 +13,12 @@
         <div class="col-md-6">
           <div class="copyright">
             &copy; {{ year }}
-            <a href="#" target="_blank" rel="noopener">Hospital México</a>
+            <a href="#" target="_blank" rel="noopener">Dr. Manuel Lazo</a>
           </div>
         </div>
         <div class="col-md-6">
           <ul class="nav nav-footer justify-content-end">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a
                 class="nav-link nav-link-icon"
                 href="mailto:info@hospitalmexico.org"
@@ -47,7 +47,7 @@
                   >1 800 315 87 14</span
                 >
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
