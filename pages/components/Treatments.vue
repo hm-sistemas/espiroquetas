@@ -1,5 +1,5 @@
 <template>
-  <section id="treatments" class="section section-lg pt-lg-0">
+  <section id="treatments" class="section">
     <div class="container">
       <div class="row justify-content-center text-center mb-lg">
         <div class="col-lg-12">

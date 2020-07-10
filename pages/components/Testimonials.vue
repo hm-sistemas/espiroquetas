@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row row-grid align-items-center">
         <div class="col-lg-12">
-          <card shadow class="shadow-lg--hover mt-5">
+          <card shadow class="shadow-lg--hover">
             <div class="d-flex px-3">
               <div class="pl-4">
                 <h5 class="display-3 text-center">Testimoniales</h5>

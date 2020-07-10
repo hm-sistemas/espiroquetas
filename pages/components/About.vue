@@ -7,7 +7,8 @@
             ¿Quiénes somos?
           </h2>
           <p class="display-4">
-            Mas de 20 años de experiencia curando Artritis
+            Mas de 20 años de experiencia curando lupus, artritis,
+            migraña,fibromialgia
           </p>
           <div class="row">
             <div class="col-lg-7">
