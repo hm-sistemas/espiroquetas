@@ -3,10 +3,10 @@
     <section class="section-shaped my-0">
       <div class="container">
         <div class="p-5">
-          <h2 class="display-3">
+          <h2 class="display-3 text-center">
             ¿Quiénes somos?
           </h2>
-          <p class="display-4">
+          <p class="display-4 text-center">
             Mas de 20 años de experiencia curando lupus, artritis,
             migraña,fibromialgia
           </p>
@@ -30,7 +30,7 @@
                 Dr. Manuel R. Lazo
               </p>
               <p class="h4">Director Medico</p>
-              <p class="lead text-muted text-justify">
+              <p class="text-muted text-justify">
                 Hola, Soy el Dr. Manuel Lazo, Director Medico del Hospital
                 México. Hemos estado tratando pacientes por mas de 20 años, y
                 hemos visto que los tratamientos tradicionales no curan, solo
@@ -38,19 +38,21 @@
                 su progreso y los medicamentos aparte de caros pueden tener
                 graves efectos secundarios.
               </p>
-              <p class="lead text-muted text-justify">
-                Nuestro hopsital es uno de los pocos lugares en el mundo donde
+              <p class="text-muted text-justify">
+                Nuestro hospital es uno de los pocos lugares en el mundo donde
                 los pacientes que sufren de migraña, artritis, lumbago,
                 parálisis facial, síndrome del túnel de carpo, lupus y
-                fibromialgia pueden ser curados.
+                fibromialgia pueden ser mejorados en un gran porcentaje y en
+                otras ocasiones pueden ser curados completamente, dependiendo de
+                la situación cada paciente.
               </p>
               <p class="h4">Acerca de nuestro tratamiento</p>
-              <p class="lead text-muted text-justify">
+              <p class="text-muted text-justify">
                 Cuando venga a consulta le haremos el estudio del campos oscuro
                 utilizando un microscopio con el que podemos ver la bacteria
                 Espiroqueta en la sangre.
               </p>
-              <p class="lead text-muted text-justify">
+              <p class="text-muted text-justify">
                 Se eliminan los sintomas y se cura su enfermedad con
                 antibioticos dependiendo de cada paciente y la magnitud de la
                 enfermedad. No utilizamos medicina naturista o "alternativa",

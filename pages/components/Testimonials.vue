@@ -11,7 +11,7 @@
                   class="h3 text-justify"
                   title="Testimoniales"
                   target="_blank"
-                  href="https://www.youtube.com/user/hospitalmexico/videos"
+                  :href="url"
                 >
                   <img
                     v-lazy="'img/brand/youtube_social_circle_white-min.png'"
@@ -32,5 +32,12 @@
 <script>
 export default {
   name: 'Testimonials',
+  props: {
+    url: {
+      type: String,
+      default: 'https://www.youtube.com/user/hospitalmexico/videos',
+      description: 'URL to Youtube video or playlist.',
+    },
+  },
 }
 </script>

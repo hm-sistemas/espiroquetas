@@ -1,8 +1,14 @@
 <template>
   <div id="app">
-    <MainSlider></MainSlider>
+    <MainSlider
+      topic="ARTRITIS"
+      url="https://www.youtube.com/watch?v=WfTpm4CWDL0&list=PLKNTNQ10nSNEdKmwUehzxBsmxvEEmozQo"
+    ></MainSlider>
     <Description></Description>
-    <Testimonials></Testimonials>
+    <Content></Content>
+    <Testimonials
+      url="https://www.youtube.com/watch?v=WfTpm4CWDL0&list=PLKNTNQ10nSNEdKmwUehzxBsmxvEEmozQo"
+    ></Testimonials>
     <About></About>
     <Contact></Contact>
   </div>
@@ -10,7 +16,8 @@
 
 <script>
 import MainSlider from './components/MainSlider'
-import Description from './components/Description'
+import Description from './components/Artritis/Description'
+import Content from './components/Artritis/Content'
 import Testimonials from './components/Testimonials'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -20,6 +27,7 @@ export default {
   components: {
     MainSlider,
     Description,
+    Content,
     Testimonials,
     About,
     /* Surgeries,
@@ -30,7 +38,7 @@ export default {
     return {
       title: 'Tratamiento para artritis',
       description:
-        'Tratamiento para artritis. 90% de casos de éxito con nuestro plan de tratamientode 4 a 6 meses.',
+        'Tratamiento para artritis en Tijuana. 90% de casos de éxito con nuestro plan de tratamientode 4 a 6 meses.',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'CreativeWork',

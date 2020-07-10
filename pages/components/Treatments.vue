@@ -15,7 +15,7 @@
       <div class="row justify-content-center mt--100">
         <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
           <div class="px-6">
-            <nuxt-link class="mr-lg-5" to="/landing">
+            <nuxt-link class="mr-lg-5" to="/artritis">
               <div class="clearfix">
                 <img
                   v-lazy="'img/treatments/HMT_icon_Arthritis-min.png'"

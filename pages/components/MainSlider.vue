@@ -8,7 +8,7 @@
         style="max-height: 250px;"
         img-alt="Lupus"
       >
-        <h3 style="color: white;">DILE ADIOS AL LUPUS</h3>
+        <h3 style="color: white;">DILE ADIOS AL {{ topic }}</h3>
       </b-carousel-slide>
       <!-- <b-carousel-slide
         text="Surgeries and Hospitalization."
@@ -26,12 +26,7 @@
         img-alt="Videos Testimoniales"
       >
         <h3 style="color: white;">VER VIDEOS TESTIMONIALES</h3>
-        <a
-          type="button"
-          class="btn btn-primary"
-          target="_blank"
-          href="https://www.youtube.com/user/hospitalmexico/videos"
-        >
+        <a type="button" class="btn btn-primary" target="_blank" :href="url">
           Ver videos aquí
         </a>
       </b-carousel-slide>
@@ -41,5 +36,17 @@
 <script>
 export default {
   name: 'MainSlider',
+  props: {
+    url: {
+      type: String,
+      default: 'https://www.youtube.com/user/hospitalmexico/videos',
+      description: 'URL to Youtube video or playlist.',
+    },
+    topic: {
+      type: String,
+      default: 'LUPUS',
+      description: 'Name of main topic.',
+    },
+  },
 }
 </script>
