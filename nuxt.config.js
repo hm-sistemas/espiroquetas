@@ -14,20 +14,20 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: 'Hospital México​ in Tijuana',
+    title: 'Tratamiento para lupus, artritis, migraña, fibromialgia',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         name: 'keywords',
         content:
-          'Hospital, Tijuana, México,​ Dental, Affordable surgeries, Treatments, Low cost, Services, Mexico',
+          'Hospital, Tijuana, México,​ Tratamiento, lupus, artritis, migraña, fibromialgia',
       },
       {
         hid: 'description',
         name: 'description',
         content:
-          'Hospital Mexico in Tijuana has been providing affordable health care for over 25 years. Call now for any questions you may have.',
+          'Tratamiento para artritis, migraña, parálisis facial, fibromialgia, síndrome del tunel de carpo.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -44,9 +44,19 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    '~/plugins/vue2-transitions',
-    '~/plugins/argon',
-    '~/plugins/vuelidate',
+    { src: '~/plugins/vue2-transitions', ssr: true },
+    {
+      src: '~/plugins/argon',
+      ssr: true,
+    },
+    {
+      src: '~/plugins/vuelidate',
+      ssr: true,
+    },
+    {
+      src: '~/plugins/vueYouTubeEmbed',
+      ssr: false,
+    },
   ],
   /*
    ** Auto import components

@@ -18,15 +18,7 @@
             <div class="row">
               <div class="col-lg-5">
                 <div class="pr-md-5">
-                  <icon
-                    name="fa fa-question-circle"
-                    class="mb-5"
-                    size="lg"
-                    type="info"
-                    shadow
-                    rounded
-                  ></icon>
-                  <p class="h3 text-center">
+                  <p class="display-3 text-center">
                     Contáctenos!!
                   </p>
                   <p class="h5 text-justify">
@@ -47,9 +39,9 @@
                           data-toggle="tooltip"
                           title="LLAMENOS"
                         >
-                          <h6 class="mb-0">
+                          <h5 class="mb-0">
                             A California desde fuera de USA 1(619) 581-4081
-                          </h6>
+                          </h5>
                         </a>
                       </div>
                     </li>
@@ -62,7 +54,7 @@
                         data-toggle="tooltip"
                         title="Call Us"
                       >
-                        <h6 class="mb-0">A California en USA (619) 581-4081</h6>
+                        <h5 class="mb-0">A California en USA (619) 581-4081</h5>
                       </a>
                     </li>
                     <li class="py-2">
@@ -73,10 +65,10 @@
                         data-toggle="tooltip"
                         title="Address"
                       >
-                        <h6 class="mb-0">
+                        <h5 class="mb-0">
                           Hospital México 9077 De la Amistad Av., Colonia
                           Federal, 22010 Tijuana, B.C.
-                        </h6>
+                        </h5>
                       </a>
                     </li>
                   </ul>

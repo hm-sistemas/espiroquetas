@@ -5,6 +5,7 @@
     <Treatments></Treatments>
     <Deseases></Deseases>
     <Testimonials></Testimonials>
+    <About></About>
     <Contact></Contact>
   </div>
 </template>
@@ -15,6 +16,7 @@ import Description from './components/Description'
 import Treatments from './components/Treatments'
 import Deseases from './components/Deseases'
 import Testimonials from './components/Testimonials'
+import About from './components/About'
 import Contact from './components/Contact'
 export default {
   layout: 'App',
@@ -25,6 +27,7 @@ export default {
     Treatments,
     Deseases,
     Testimonials,
+    About,
     /* Surgeries,
     Insurances, */
     Contact,

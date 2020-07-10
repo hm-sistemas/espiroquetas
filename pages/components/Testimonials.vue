@@ -8,11 +8,17 @@
               <div class="pl-4">
                 <h5 class="display-3 text-center">Testimoniales</h5>
                 <a
-                  class="h3 text-justify text-info"
+                  class="h3 text-justify"
                   title="Testimoniales"
                   target="_blank"
                   href="https://www.youtube.com/user/hospitalmexico/videos"
                 >
+                  <img
+                    v-lazy="'img/brand/youtube_social_circle_white-min.png'"
+                    alt="Youtube"
+                    class="pull-left mr-2"
+                  />
+                  <br />
                   Dar clic aquí para ver todos los testimoniales en YouTube.
                 </a>
               </div>
