@@ -27,51 +27,6 @@
                     estacionar su automovil de lado de Estados Unidos y cruzar
                     caminando a Tijuana, llegaría en solo unos minutos.
                   </p>
-                  <h3 class="text-success text-center">LLAME AHORA</h3>
-                  <ul class="list-unstyled mt-2">
-                    <li class="py-2">
-                      <div class="d-flex align-items-center">
-                        <a
-                          class="nav-link nav-link-icon"
-                          href="tel:16195814081"
-                          target="_blank"
-                          rel="noopener"
-                          data-toggle="tooltip"
-                          title="LLAMENOS"
-                        >
-                          <h5 class="mb-0">
-                            A California desde fuera de USA 1(619) 581-4081
-                          </h5>
-                        </a>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <a
-                        class="nav-link nav-link-icon"
-                        href="tel:16195814081"
-                        target="_blank"
-                        rel="noopener"
-                        data-toggle="tooltip"
-                        title="Call Us"
-                      >
-                        <h5 class="mb-0">A California en USA (619) 581-4081</h5>
-                      </a>
-                    </li>
-                    <li class="py-2">
-                      <a
-                        class="nav-link nav-link-icon"
-                        target="_blank"
-                        rel="noopener"
-                        data-toggle="tooltip"
-                        title="Address"
-                      >
-                        <h5 class="mb-0">
-                          Hospital México 9077 De la Amistad Av., Colonia
-                          Federal, 22010 Tijuana, B.C.
-                        </h5>
-                      </a>
-                    </li>
-                  </ul>
                 </div>
               </div>
               <div class="col-lg-7 mt-5">
