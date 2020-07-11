@@ -216,6 +216,6 @@
 </template>
 <script>
 export default {
-  name: 'ContentM',
+  name: 'ContentP',
 }
 </script>
