@@ -196,6 +196,6 @@
 </template>
 <script>
 export default {
-  name: 'Description',
+  name: 'ContentA',
 }
 </script>

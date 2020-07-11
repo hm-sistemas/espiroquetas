@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <MainSlider
-      topic="A LA ARTRITIS"
+      topic="A LA MIGRAÑA"
       url="https://www.youtube.com/watch?v=WfTpm4CWDL0&list=PLKNTNQ10nSNEdKmwUehzxBsmxvEEmozQo"
     ></MainSlider>
     <Description></Description>
@@ -16,8 +16,8 @@
 
 <script>
 import MainSlider from './components/MainSlider'
-import Description from './components/Artritis/Description'
-import Content from './components/Artritis/Content'
+import Description from './components/Migraña/Description'
+import Content from './components/Migraña/Content'
 import Testimonials from './components/Testimonials'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -36,13 +36,13 @@ export default {
   },
   data() {
     return {
-      title: 'Tratamiento para artritis',
+      title: 'Tratamiento para migraña',
       description:
-        'Tratamiento para artritis en Tijuana. 90% de casos de éxito con nuestro plan de tratamiento de 4 a 6 meses.',
+        'Tratamiento para migraña en Tijuana. Con este nuevo tratamiento se cura el 90% de los pacientes con Migraña tratados.',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'CreativeWork',
-        name: 'Artritis',
+        name: 'Migraña',
         image: 'https://hospitalmexico.org/img/brand/Hm-logo-02.png',
         email: 'info@hospitalmexico.org',
         url: 'http://http://espiroquetas.com/artritis',

@@ -7,13 +7,9 @@
             <div class="d-flex px-3">
               <div class="pl-4">
                 <p class="h5 text-justify">
-                  Tratamiento para artritis. 90% de casos de éxito con nuestro
-                  plan de tratamientode 4 a 6 months. Se eliminan los sintomas y
-                  se cura su enfermedad con antibioticos dependiendo de cada
-                  paciente y la magnitud de la enfermedad. No utilizamos
-                  medicina naturista o "alternativa", solo le suministamos
-                  antibioticos los cuales pueden ser comprados en cualquier
-                  farmacia.
+                  Las Espiroquetas y su relación con Migraña. Con este nuevo
+                  tratamiento se cura el 90% de los pacientes con Migraña
+                  tratados.
                 </p>
                 <h5 class="title text-success">LLAME AHORA</h5>
                 <ul class="list-unstyled mt-2">
@@ -58,6 +54,6 @@
 </template>
 <script>
 export default {
-  name: 'DescriptionA',
+  name: 'DescriptionM',
 }
 </script>

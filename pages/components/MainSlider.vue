@@ -8,7 +8,7 @@
         style="max-height: 250px;"
         img-alt="Lupus"
       >
-        <h3 style="color: white;">DILE ADIOS AL {{ topic }}</h3>
+        <h3 style="color: white;">DILE ADIOS {{ topic }}</h3>
       </b-carousel-slide>
       <!-- <b-carousel-slide
         text="Surgeries and Hospitalization."
@@ -44,7 +44,7 @@ export default {
     },
     topic: {
       type: String,
-      default: 'LUPUS',
+      default: 'AL LUPUS',
       description: 'Name of main topic.',
     },
   },
