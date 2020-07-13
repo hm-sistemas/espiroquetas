@@ -107,10 +107,12 @@
                   satisfactoria durante el primer mes, siendo poco probables las
                   recidivas si nuestro paciente cumple bien su tratamiento de
                   cuatro a seis meses con antibióticos, no se le prescriben
-                  analgésicos ni corticoesteroides. Nosotros consideramos que
-                  esta molestia es parte de la multitud de síntomas que
-                  acompañan a la Leptospirosis, la Borreliosis o Enfermedad de
-                  Lyme y a la Sífilis.
+                  analgésicos ni corticoesteroides.
+                </p>
+                <p class="text-justify">
+                  Nosotros consideramos que esta molestia es parte de la
+                  multitud de síntomas que acompañan a la Leptospirosis, la
+                  Borreliosis o Enfermedad de Lyme y a la Sífilis.
                 </p>
               </div>
             </div>

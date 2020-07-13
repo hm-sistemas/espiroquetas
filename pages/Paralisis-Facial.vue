@@ -23,7 +23,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 export default {
   layout: 'App',
-  name: 'Index',
+  name: 'ParalisisFacial',
   components: {
     MainSlider,
     Description,
