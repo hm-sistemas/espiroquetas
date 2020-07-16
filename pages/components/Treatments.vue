@@ -73,7 +73,7 @@
       <div class="row justify-content-center">
         <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
           <div class="px-6">
-            <nuxt-link class="mr-lg-5" to="/landing">
+            <nuxt-link class="mr-lg-5" to="/lumbago">
               <div class="clearfix">
                 <img
                   v-lazy="'img/treatments/HMT_icon_backpain-min.png'"
