@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <MainSlider
-      topic="A LA PARALISIS FACIAL"
+      topic="A LA FATIGA CRÓNICA"
       url="https://www.youtube.com/watch?v=WfTpm4CWDL0&list=PLKNTNQ10nSNEdKmwUehzxBsmxvEEmozQo"
     ></MainSlider>
     <Description></Description>
@@ -16,14 +16,14 @@
 
 <script>
 import MainSlider from './components/MainSlider'
-import Description from './components/Paralisis/Description'
-import Content from './components/Paralisis/Content'
+import Description from './components/Fibromialgia/Description'
+import Content from './components/Fibromialgia/Content'
 import Testimonials from './components/Testimonials'
 import About from './components/About'
 import Contact from './components/Contact'
 export default {
   layout: 'App',
-  name: 'ParalisisFacial',
+  name: 'Fibromialgia',
   components: {
     MainSlider,
     Description,
@@ -36,16 +36,16 @@ export default {
   },
   data() {
     return {
-      title: 'Tratamiento para parálisis facial',
+      title: 'Tratamiento para fibromialgia',
       description:
-        'Tratamiento para parálisis facial en Tijuana. Con este nuevo tratamiento se cura el 90% de los pacientes con parálisis facial tratados.',
+        'Tratamiento para Fibromialgia en Tijuana. 90% de casos de éxito con nuestro plan de tratamiento de 4 a 6 meses.',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'CreativeWork',
-        name: 'Parálisis facial',
+        name: 'Fibromialgia',
         image: 'https://hospitalmexico.org/img/brand/Hm-logo-02.png',
         email: 'info@hospitalmexico.org',
-        url: 'http://espiroquetas.com/artritis',
+        url: 'http://espiroquetas.com/fibromialgia',
       },
     }
   },

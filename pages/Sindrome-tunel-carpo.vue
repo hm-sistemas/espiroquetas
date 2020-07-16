@@ -42,10 +42,10 @@ export default {
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'CreativeWork',
-        name: 'Migraña',
+        name: 'Síndrome del Túnel del Carpo',
         image: 'https://hospitalmexico.org/img/brand/Hm-logo-02.png',
         email: 'info@hospitalmexico.org',
-        url: 'http://http://espiroquetas.com/sindrome-tunel-carpo',
+        url: 'http://espiroquetas.com/sindrome-tunel-carpo',
       },
     }
   },

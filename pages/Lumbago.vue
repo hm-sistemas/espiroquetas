@@ -23,7 +23,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 export default {
   layout: 'App',
-  name: 'Artritis',
+  name: 'Lumbago',
   components: {
     MainSlider,
     Description,
@@ -45,7 +45,7 @@ export default {
         name: 'Lumbago',
         image: 'https://hospitalmexico.org/img/brand/Hm-logo-02.png',
         email: 'info@hospitalmexico.org',
-        url: 'http://http://espiroquetas.com/lumbago',
+        url: 'http://espiroquetas.com/lumbago',
       },
     }
   },

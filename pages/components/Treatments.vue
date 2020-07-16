@@ -87,7 +87,7 @@
         </div>
         <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
           <div class="px-6">
-            <nuxt-link class="mr-lg-5" to="/landing">
+            <nuxt-link class="mr-lg-5" to="/fibromialgia">
               <div class="clearfix">
                 <img
                   v-lazy="'img/treatments/HMT_icon_Fibromyalgia-min.png'"
@@ -101,7 +101,7 @@
         </div>
         <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
           <div class="px-6">
-            <nuxt-link class="mr-lg-5" to="/landing">
+            <nuxt-link class="mr-lg-5" to="/sindrome-fatiga-cronica">
               <div class="clearfix">
                 <img
                   v-lazy="'img/treatments/HMT_icon_Fatigue-min.png'"

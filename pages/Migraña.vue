@@ -45,7 +45,7 @@ export default {
         name: 'Migraña',
         image: 'https://hospitalmexico.org/img/brand/Hm-logo-02.png',
         email: 'info@hospitalmexico.org',
-        url: 'http://http://espiroquetas.com/artritis',
+        url: 'http://espiroquetas.com/artritis',
       },
     }
   },

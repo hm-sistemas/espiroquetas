@@ -7,9 +7,9 @@
             <div class="d-flex px-3">
               <div class="pl-4">
                 <p class="h5 text-justify">
-                  Las Espiroquetas y su relación con lumbago o dolor de espalda.
-                  Con este nuevo tratamiento se cura el 90% de los pacientes con
-                  lumbago o dolor de espalda tratados.
+                  Las Espiroquetas y su relación con fibromialgia. Con este
+                  nuevo tratamiento se cura el 90% de los pacientes con
+                  fibromialgia tratados.
                 </p>
                 <h5 class="title text-success">LLAME AHORA</h5>
                 <ul class="list-unstyled mt-2">
@@ -54,6 +54,6 @@
 </template>
 <script>
 export default {
-  name: 'DescriptionL',
+  name: 'DescriptionF',
 }
 </script>
