@@ -15,14 +15,14 @@
       <div class="row justify-content-center mt--100">
         <div class="col-md-4 col-lg-4">
           <div class="px-6">
-            <nuxt-link class="mr-lg-5" to="/landing">
+            <nuxt-link class="mr-lg-5" to="/enfermedad-lyme-borreliosis">
               <p class="h4 text-info">Borreliosis o Enfermedad de Lyme.</p>
             </nuxt-link>
           </div>
         </div>
         <div class="col-md-4 col-lg-4">
           <div class="px-6">
-            <nuxt-link class="mr-lg-5" to="/landing">
+            <nuxt-link class="mr-lg-5" to="/sifilis">
               <p class="h4 text-info">Treponema Padillum (Sífilis)</p>
             </nuxt-link>
           </div>
