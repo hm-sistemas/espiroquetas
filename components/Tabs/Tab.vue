@@ -1,8 +1,8 @@
 <template>
   <div
-    class="tab-pane"
     v-show="active"
     :id="id || title"
+    class="tab-pane"
     :class="{ active: active }"
   >
     <slot></slot>
@@ -10,7 +10,7 @@
 </template>
 <script>
 export default {
-  name: 'tab-pane',
+  name: 'TabPane',
   props: {
     title: {
       type: String,

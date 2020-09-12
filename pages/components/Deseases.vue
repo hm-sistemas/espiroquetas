@@ -4,7 +4,7 @@
       <div class="row justify-content-center text-center mb-lg">
         <div class="col-lg-12">
           <h2 class="display-3">
-            Conozca mas sobre las enfermedades que pueden causar sus síntomas
+            Conozca más sobre las enfermedades que pueden causar sus síntomas
           </h2>
           <p class="lead text-muted text-justify">
             De clic en los siguientes enlaces para conocer las causas de sus
@@ -30,9 +30,7 @@
         <div class="col-md-4 col-lg-4">
           <div class="px-6">
             <nuxt-link class="mr-lg-5" to="/landing">
-              <p class="h4 text-info">
-                Leptospirosis
-              </p>
+              <p class="h4 text-info">Leptospirosis</p>
             </nuxt-link>
           </div>
         </div>

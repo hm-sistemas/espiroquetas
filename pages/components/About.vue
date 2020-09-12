@@ -3,9 +3,7 @@
     <section class="section-shaped my-0">
       <div class="container">
         <div class="p-5">
-          <h2 class="display-3 text-center">
-            ¿Quiénes somos?
-          </h2>
+          <h2 class="display-3 text-center">¿Quiénes somos?</h2>
           <p class="display-4 text-center">
             Mas de 20 años de experiencia curando lupus, artritis,
             migraña,fibromialgia
@@ -13,9 +11,7 @@
           <div class="row">
             <div class="col-lg-7">
               <div class="pr-md-5">
-                <p class="display-4">
-                  ¿Cómo llegar al Hospital México?
-                </p>
+                <p class="display-4">¿Cómo llegar al Hospital México?</p>
               </div>
               <client-only>
                 <youtube
@@ -26,9 +22,7 @@
               </client-only>
             </div>
             <div class="col-lg-5">
-              <p class="display-4">
-                Dr. Manuel R. Lazo
-              </p>
+              <p class="display-4">Dr. Manuel R. Lazo</p>
               <p class="h4">Director Medico</p>
               <p class="text-muted text-justify">
                 Hola, Soy el Dr. Manuel Lazo, Director Medico del Hospital

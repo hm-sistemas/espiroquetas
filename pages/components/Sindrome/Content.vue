@@ -92,16 +92,12 @@
                   Los síntomas que le acompañan, también ceden a los 4 a 6 meses
                   de tratamiento.
                 </p>
-                <p class="display-3 text-center">
-                  Tratamiento quirúrgico
-                </p>
+                <p class="display-3 text-center">Tratamiento quirúrgico</p>
                 <p class="text-justify">
                   Nunca lo recomendamos aunque tenemos la capacidad de hacerla
                   fácilmente en nuestro Hospital.
                 </p>
-                <p class="display-3 text-center">
-                  ¿Cuáles son los resultados?
-                </p>
+                <p class="display-3 text-center">¿Cuáles son los resultados?</p>
                 <p class="text-justify">
                   Prácticamente todos los pacientes experimentan una mejoría
                   satisfactoria durante el primer mes, siendo poco probables las

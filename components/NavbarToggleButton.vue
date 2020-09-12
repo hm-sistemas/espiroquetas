@@ -9,7 +9,7 @@
     aria-label="Toggle navigation"
   >
     <span class="" role="button"
-      ><i class="fa fa-bars" aria-hidden="true" style="color: black;"></i
+      ><i class="fa fa-bars" aria-hidden="true" style="color: black"></i
     ></span>
   </button>
 </template>

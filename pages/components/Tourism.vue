@@ -29,7 +29,7 @@
                     <img
                       v-lazy="'img/tourism/hm-tijuana.jpg'"
                       class="rounded-square img-center img-fluid shadow"
-                      style="height: 300px;"
+                      style="height: 300px"
                       alt="HM Tijuana image"
                     />
                   </div>
@@ -62,7 +62,7 @@
                     <img
                       v-lazy="'img/tourism/cirugias-tijuana.jpg'"
                       class="rounded-square img-center img-fluid shadow"
-                      style="height: 190;"
+                      style="height: 190"
                       alt="Surgeries in Tijuana image"
                     />
                   </div>
@@ -75,9 +75,7 @@
               <card class="border-0" hover shadow body-classes="py-5">
                 <div class="row text-justify">
                   <div class="col-md-8">
-                    <h6 class="text-primary text-uppercase">
-                      More benefits
-                    </h6>
+                    <h6 class="text-primary text-uppercase">More benefits</h6>
                     <p class="description mt-3">
                       Medical tourism in Tijuana has been detonated in recent
                       years, taking advantage of the disadvantages of the health
@@ -92,7 +90,7 @@
                     <img
                       v-lazy="'img/tourism/panoramica-tijuana.jpg'"
                       class="rounded-square img-center img-fluid shadow"
-                      style="height: 400;"
+                      style="height: 400"
                       alt="Panoramic view of Tijuana image"
                     />
                   </div>

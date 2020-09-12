@@ -6,12 +6,8 @@
           <card shadow class="shadow-lg--hover mt-5">
             <div class="d-flex px-3">
               <div class="pl-4">
-                <p class="display-2 text-center">
-                  LUMBAGO
-                </p>
-                <p class="display-3 text-center">
-                  ¿Qué es Lumbago?
-                </p>
+                <p class="display-2 text-center">LUMBAGO</p>
+                <p class="display-3 text-center">¿Qué es Lumbago?</p>
                 <p class="text-justify">
                   Lumbago es dolor en la Columna vertebral en la parte baja, la
                   parte posterior de la espalda. En este trabajo también

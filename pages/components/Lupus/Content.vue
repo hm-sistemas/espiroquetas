@@ -6,12 +6,8 @@
           <card shadow class="shadow-lg--hover mt-5">
             <div class="d-flex px-3">
               <div class="pl-4">
-                <p class="display-2 text-center">
-                  LUPUS
-                </p>
-                <p class="display-3 text-center">
-                  ¿Qué es el Lupus?
-                </p>
+                <p class="display-2 text-center">LUPUS</p>
+                <p class="display-3 text-center">¿Qué es el Lupus?</p>
                 <p class="text-justify">
                   Toda la Información Medica dice que el Lupus es Autoinmune,
                   otros dicen que es Idiopática, esto es el resultado de la
@@ -36,9 +32,7 @@
                   AUTOINMUNE esto no es cierto porque la sintomatología CEDE
                   AUTOMATICAMENTE con administración prolongada de antibióticos
                 </p>
-                <p class="display-3 text-center">
-                  Tipos de Lupus
-                </p>
+                <p class="display-3 text-center">Tipos de Lupus</p>
                 <p class="text-justify">
                   Existen tres tipos de Lupus: Eritematoso, Sistémico y
                   Discoide.
@@ -73,9 +67,7 @@
                   cloropromazina, Etarnecep, Infliximab, Metildopa, Minocicline,
                   Quinidina, Sulfasalazina.
                 </p>
-                <p class="display-3 text-center">
-                  Sintomas
-                </p>
+                <p class="display-3 text-center">Sintomas</p>
                 <p class="text-justify">
                   Todos los síntomas son los de un paciente con ARTRITIS. El
                   Medico esta descontrolado porque no sabe que hacer y busca

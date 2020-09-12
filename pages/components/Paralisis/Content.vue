@@ -44,9 +44,7 @@
                   Laboratorio cada mes para vigilar su estado de salud por la
                   ingestión del medicamento.
                 </p>
-                <p class="display-3 text-center">
-                  Factores de riesgo
-                </p>
+                <p class="display-3 text-center">Factores de riesgo</p>
                 <p class="text-justify">
                   Cualquiera está predispuesto a ser infectado con esta
                   infección, cualquier persona ha sido atacada por un mosquito,
@@ -66,9 +64,7 @@
                   Pineda, en San Quintin, Ensenada y Tijuana, un 51 % de
                   personas están positivas a LEPTOSPIROSIS.
                 </p>
-                <p class="display-3 text-center">
-                  Síntomas
-                </p>
+                <p class="display-3 text-center">Síntomas</p>
                 <p class="text-justify">
                   Frecuentemente el paciente refiere que “se levantó y al abrir
                   la puerta se le vino un viento que le causo la parálisis”,
@@ -109,9 +105,7 @@
                   X de Cráneo y todo lo que su médico decida que necesita. En
                   algunas ocasiones se le tiene que hacer una electromiografía.
                 </p>
-                <p class="display-3 text-center">
-                  Pronóstico
-                </p>
+                <p class="display-3 text-center">Pronóstico</p>
                 <p class="text-justify">
                   En la mayoría de los casos el paciente se “cura de la
                   parálisis facial en unas pocas semanas”, esto es mentira, se
@@ -123,9 +117,7 @@
                   Bacteria que casi siempre es una Espiroqueta (Leptospira,
                   Treponema o Borrelia Burgdorferi).
                 </p>
-                <p class="display-3 text-center">
-                  Complicaciones
-                </p>
+                <p class="display-3 text-center">Complicaciones</p>
                 <p class="text-justify">
                   Si el paciente recibe el tratamiento, no hay complicaciones,
                   pero si no lo recibe continuara con su parálisis leve, casi
@@ -186,9 +178,7 @@
                   brazos, insomnio o dormir mucho, irritabilidad (se pelea con
                   muchas personas), vértigo, etc.
                 </p>
-                <p class="display-3 text-center">
-                  Conocimiento Médico
-                </p>
+                <p class="display-3 text-center">Conocimiento Médico</p>
                 <p class="text-justify">
                   Existen muy pocos Médicos que conocen la infección por
                   Espiroquetas (Borrelia, Leptospira, Treponema.) y cuando

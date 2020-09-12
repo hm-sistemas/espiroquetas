@@ -6,9 +6,7 @@
           <card shadow class="shadow-lg--hover mt-5">
             <div class="d-flex px-3">
               <div class="pl-4">
-                <p class="display-2 text-center">
-                  ENFERMEDAD DE LYME
-                </p>
+                <p class="display-2 text-center">ENFERMEDAD DE LYME</p>
                 <p class="display-3 text-center">
                   ¿Qué es Borreliosis o Enfermedad de Lyme?
                 </p>
@@ -30,9 +28,7 @@
                   Burgdorferi. Al inicio se comenzó el tratamiento con
                   Penicilina que demostró una mejoría de la enfermedad.
                 </p>
-                <p class="display-3 text-center">
-                  Criterio de Diagnostico
-                </p>
+                <p class="display-3 text-center">Criterio de Diagnostico</p>
                 <p class="text-justify">
                   El CDC en los Estados Unidos desde 1991 exige que se reporte,
                   pide: Que el paciente haya visitado una zona endémica, que el
@@ -168,9 +164,7 @@
                   La Borreliosis y la Sífilis son hermanas:
                 </p>
                 <ol class="list">
-                  <li class="py-2">
-                    Las dos penetran por la piel
-                  </li>
+                  <li class="py-2">Las dos penetran por la piel</li>
                   <li class="py-2">
                     Las dos son causadas por una espiroqueta.
                   </li>
@@ -178,9 +172,7 @@
                     Las dos pueden causar problemas Neurológicos,
                     musculoesqueléticos y Siquiátricos.
                   </li>
-                  <li class="py-2">
-                    Las dos se tratan con antibióticos.
-                  </li>
+                  <li class="py-2">Las dos se tratan con antibióticos.</li>
                   <li class="py-2">
                     Las dos son fáciles de diagnosticar pensams en el
                     diagnóstico.
@@ -204,9 +196,7 @@
                   Ceftriaxona se me hace muy problemática puesto que el paciente
                   debe permanecer junto al médico el 1er. mes.
                 </p>
-                <p class="display-3 text-center">
-                  Conclusión
-                </p>
+                <p class="display-3 text-center">Conclusión</p>
                 <p class="text-justify">
                   El diagnostico esta incrementándose por haber más médicos que
                   están conociendo la borreliosis o enfermedad de lyme, es

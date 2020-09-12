@@ -6,12 +6,8 @@
           <card shadow class="shadow-lg--hover mt-5">
             <div class="d-flex px-3">
               <div class="pl-4">
-                <p class="display-2 text-center">
-                  FIBROMIALGIA
-                </p>
-                <p class="display-3 text-center">
-                  ¿Qué es fibromialgia?
-                </p>
+                <p class="display-2 text-center">FIBROMIALGIA</p>
+                <p class="display-3 text-center">¿Qué es fibromialgia?</p>
                 <p class="text-justify">
                   Es un trastorno musculoesquelético y neuropsiquiátrico, que es
                   la expresión de enfermedades subyacentes como la
@@ -36,9 +32,7 @@
                   con fibromialgia, normalmente presentan otro tipo de
                   sintomatología como son, migraña, artritis, Lumbago, etc.
                 </p>
-                <p class="display-3 text-center">
-                  Etiología
-                </p>
+                <p class="display-3 text-center">Etiología</p>
                 <p class="text-justify">
                   Creemos que no es una enfermedad y que solamente es la
                   sintomatología de la infección por Espiroquetas
@@ -59,9 +53,7 @@
                   conocimiento que tenemos en algunas situaciones graves para el
                   paciente.
                 </p>
-                <p class="display-3 text-center">
-                  Estres
-                </p>
+                <p class="display-3 text-center">Estres</p>
                 <p class="text-justify">
                   El estres, no es un importante factor en el desarrollo de la
                   fibromialgia, nosotros pensamos que es a la inversa, la
@@ -107,9 +99,7 @@
                   personas con fibromialgia revela zonas sensibles al tacto en
                   lugares específicos, llamados puntos hipersensibles.
                 </p>
-                <p class="display-3 text-center">
-                  Síntomas
-                </p>
+                <p class="display-3 text-center">Síntomas</p>
                 <p class="text-justify">
                   El principal elemento caracterizador de la fibromialgia es el
                   dolor músculo-esquelético difuso y generalizado. Normalmente

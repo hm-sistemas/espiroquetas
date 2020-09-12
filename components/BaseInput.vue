@@ -51,7 +51,7 @@
       <div
         v-if="error"
         class="text-danger invalid-feedback"
-        style="display: block;"
+        style="display: block"
         :class="{ 'mt-2': hasIcon }"
       >
         {{ error }}

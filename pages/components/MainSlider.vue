@@ -5,10 +5,10 @@
       <b-carousel-slide
         img-src="/img/slider/HM_slide5-min.jpg"
         img-fluid
-        style="max-height: 250px;"
+        style="max-height: 250px"
         img-alt="Lupus"
       >
-        <h3 style="color: white;">DILE ADIOS {{ topic }}</h3>
+        <h3 style="color: white">DILE ADIOS {{ topic }}</h3>
       </b-carousel-slide>
       <!-- <b-carousel-slide
         text="Surgeries and Hospitalization."
@@ -22,10 +22,10 @@
         caption=""
         img-src="/img/slider/HM_slide4-min.jpg"
         img-fluid
-        style="max-height: 250px;"
+        style="max-height: 250px"
         img-alt="Videos Testimoniales"
       >
-        <h3 style="color: white;">VER VIDEOS TESTIMONIALES</h3>
+        <h3 style="color: white">VER VIDEOS TESTIMONIALES</h3>
         <a type="button" class="btn btn-primary" target="_blank" :href="url">
           Ver videos aquí
         </a>

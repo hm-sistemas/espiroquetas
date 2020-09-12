@@ -1,7 +1,9 @@
 <template>
   <section id="contact" class="section section-lg pt-0">
+    <br />
+    <br />
     <section class="section-shaped my-0">
-      <div class="shape shape-style-1 shape-default shape-skew">
+      <div class="shape shape-style-2 shape-default shape-skew">
         <span></span>
         <span></span>
         <span></span>
@@ -18,9 +20,7 @@
             <div class="row">
               <div class="col-lg-5">
                 <div class="pr-md-5">
-                  <p class="display-3 text-center">
-                    Contáctenos!!
-                  </p>
+                  <p class="display-3 text-center">Contáctenos!!</p>
                   <p class="h5 text-justify">
                     La ubicación en Tijuana es estratégica ya que esta a solo
                     unos cuantos pasos de la frontera internacional, puede
@@ -71,9 +71,7 @@
                           data-toggle="tooltip"
                           title="Email Us"
                         >
-                          <h6 class="mb-0">
-                            E-mail: info@hospitalmexico.org
-                          </h6>
+                          <h6 class="mb-0">E-mail: info@hospitalmexico.org</h6>
                         </a>
                       </div>
                     </li>

@@ -6,20 +6,14 @@
           <card shadow class="shadow-lg--hover mt-5">
             <div class="d-flex px-3">
               <div class="pl-4">
-                <p class="display-2 text-center">
-                  ARTRITIS
-                </p>
-                <p class="display-3 text-center">
-                  ¿Qué es la Artritis?
-                </p>
+                <p class="display-2 text-center">ARTRITIS</p>
+                <p class="display-3 text-center">¿Qué es la Artritis?</p>
                 <p class="text-justify">
                   La Artritis es la inflamación de una o más articulaciones. Una
                   articulación es el área donde dos huesos se encuentran.
                   Existen más de 100 tipos diferentes de artritis.
                 </p>
-                <p class="display-3 text-center">
-                  Causas
-                </p>
+                <p class="display-3 text-center">Causas</p>
                 <p class="text-justify">
                   La artritis involucra la degradación del cartílago, el cual
                   normalmente protege una articulación, permitiendo que ésta se
@@ -37,9 +31,7 @@
                     atacado por si mismo?. Creemos que puede ser una infección
                     como la borreliosis o enfermedad de lyme.
                   </li>
-                  <li class="py-2">
-                    Fractura ósea.
-                  </li>
+                  <li class="py-2">Fractura ósea.</li>
                   <li class="py-2">
                     "Desgaste y deterioro" general de las articulaciones.
                   </li>
@@ -53,36 +45,24 @@
                   no sucede así. Cuando esto sucede, usted tiene artritis
                   crónica.
                 </p>
-                <p class="display-3 text-center">
-                  Síntomas
-                </p>
+                <p class="display-3 text-center">Síntomas</p>
                 <p class="text-justify">
                   La artritis causa dolor, hinchazón, rigidez y movimiento
                   limitado en la articulación. Los síntomas pueden abarcar:
                 </p>
                 <ul class="list">
-                  <li class="py-2">
-                    Dolor articular.
-                  </li>
-                  <li class="py-2">
-                    Inflamación articular.
-                  </li>
+                  <li class="py-2">Dolor articular.</li>
+                  <li class="py-2">Inflamación articular.</li>
                   <li class="py-2">
                     Disminución de la capacidad para mover la articulación.
                   </li>
                   <li class="py-2">
                     Enrojecimiento de la piel alrededor de una articulación.
                   </li>
-                  <li class="py-2">
-                    Rigidez, especialmente en la mañana.
-                  </li>
-                  <li class="py-2">
-                    Calor alrededor de una articulación.
-                  </li>
+                  <li class="py-2">Rigidez, especialmente en la mañana.</li>
+                  <li class="py-2">Calor alrededor de una articulación.</li>
                 </ul>
-                <p class="display-3 text-center">
-                  Tratamiento Típico
-                </p>
+                <p class="display-3 text-center">Tratamiento Típico</p>
                 <p class="text-justify">
                   Generalmente los médicos, primero recomiendan los medicamentos
                   de venta libre:

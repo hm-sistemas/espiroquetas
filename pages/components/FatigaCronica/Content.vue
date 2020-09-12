@@ -6,9 +6,7 @@
           <card shadow class="shadow-lg--hover mt-5">
             <div class="d-flex px-3">
               <div class="pl-4">
-                <p class="display-2 text-center">
-                  Síndrome de fatiga crónica
-                </p>
+                <p class="display-2 text-center">Síndrome de fatiga crónica</p>
                 <p class="display-3 text-center">
                   ¿Qué es el Síndrome de fatiga crónica?
                 </p>
@@ -27,9 +25,7 @@
                   linfaticos, virus, Clamidia, Epstein-Barr, Mononucleosis
                   infecciosa, etc.
                 </p>
-                <p class="display-3 text-center">
-                  Diagnóstico
-                </p>
+                <p class="display-3 text-center">Diagnóstico</p>
                 <p class="text-justify">
                   El Medico tiene que esforzarse para encontrar la causa del
                   Sindrome Síntoma de Fatiga Crónica, porque la sensación que
@@ -48,9 +44,7 @@
                   están contaminados con la misma infección y su Medico no
                   interroga a su familia.
                 </p>
-                <p class="display-3 text-center">
-                  Debe saber que...
-                </p>
+                <p class="display-3 text-center">Debe saber que...</p>
                 <p class="text-justify">
                   La ciencia Medica siempre ha rechazado los antibióticos cuando
                   se trata de problemas Mentales, neurológicos artralgicos o
